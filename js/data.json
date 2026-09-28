@@ -1,0 +1,275 @@
+[
+  {
+    "id": "gandhi",
+    "name": "Mahatma Gandhi",
+    "image": "gandhi.jpg",
+    "category": "Freedom Fighter",
+    "period": "1869 - 1948",
+    "bio": "Mohandas Karamchand Gandhi was an Indian lawyer, anti-colonial nationalist, and civil rights activist who became the leader of the nonviolent independence movement against British rule.",
+    "quote": "Be the change that you wish to see in the world.",
+    "wikiLink": "https://en.wikipedia.org/wiki/Mahatma_Gandhi",
+    "events": [
+      {
+        "name": "Led the Indian independence movement",
+        "image": "gandhi_movement.jpg",
+        "link": "https://en.wikipedia.org/wiki/Indian_independence_movement"
+      },
+      {
+        "name": "Started Non-Cooperation and Quit India Movements",
+        "image": "gandhi_salt_march.webp",
+        "link": "https://en.wikipedia.org/wiki/Quit_India_Movement"
+      },
+      {
+        "name": "Promoted non-violence (Ahimsa) and truth (Satyagraha)",
+        "image": "Satyagraha.avif",
+        "link": "https://en.wikipedia.org/wiki/Satyagraha"
+      }
+    ],
+    "development": [
+      "Village industries and rural upliftment",
+      "Khadi and self-reliance movement"
+    ]
+  },
+  {
+    "id": "nehru",
+    "name": "Jawaharlal Nehru",
+    "image": "nehru.jpg",
+    "category": "Prime Minister",
+    "period": "1889 - 1964",
+    "bio": "India's first Prime Minister and a central figure in Indian politics before and after independence. He was a principal leader of the Indian independence movement.",
+    "quote": "We live in a wonderful world that is full of beauty, charm and adventure. There is no end to the adventures we can have if only we seek them with our eyes open.",
+    "wikiLink": "https://en.wikipedia.org/wiki/Jawaharlal_Nehru",
+    "events": [
+      {
+        "name": "First Prime Minister of India",
+        "image": "nehru_speech.jpeg",
+        "link": "https://en.wikipedia.org/wiki/Jawaharlal_Nehru"
+      },
+      {
+        "name": "Implemented Five-Year Plans for economic development",
+        "image":"nehru_plans.jpg" ,
+        "link": "https://en.wikipedia.org/wiki/Five-Year_Plans_of_India"
+      },
+      {
+        "name": "Promoted scientific and industrial development",
+        "image": "placeholder.jpeg",
+        "link": "https://en.wikipedia.org/wiki/Indian_Institutes_of_Technology"
+      }
+    ],
+    "development": [
+      "Established IITs, AIIMS, and IIMs",
+      "Started Panchayati Raj system",
+      "Non-Aligned Movement in foreign policy"
+    ]
+  },
+  {
+    "id": "patel",
+    "name": "Sardar Vallabhbhai Patel",
+    "image": "patel.jpg",
+    "category": "Freedom Fighter",
+    "period": "1875 - 1950",
+    "bio": "A barrister and a senior leader of the Indian National Congress, he played a leading role in the country's struggle for independence and guided its integration into a united, independent nation.",
+    "quote": "My only desire is that India should be a good producer and no one should be hungry, shedding tears for food in the country.",
+    "wikiLink": "https://en.wikipedia.org/wiki/Vallabhbhai_Patel",
+    "events": [
+      {
+        "name": "Known as the 'Iron Man of India'",
+        "image": "patel_1.jpeg",
+        "link": "https://en.wikipedia.org/wiki/Vallabhbhai_Patel"
+      },
+      {
+        "name": "Integrated 562 princely states into the Indian Union",
+        "image": "patel_integration.jpeg",
+        "link": "https://en.wikipedia.org/wiki/Political_integration_of_India"
+      }
+    ],
+    "development": [
+      "Unity and national integration",
+      "Created the All-India Services (IAS, IPS)"
+    ]
+  },
+  {
+    "id": "ambedkar",
+    "name": "Dr. B. R. Ambedkar",
+    "image": "ambedkar.jpg",
+    "category": "Social Reformer",
+    "period": "1891 - 1956",
+    "bio": "An Indian jurist, economist, politician and social reformer who inspired the Dalit Buddhist movement and campaigned against social discrimination towards the untouchables (Dalits).",
+    "quote": "Life should be great rather than long.",
+    "wikiLink": "https.wikipedia.org/wiki/B._R._Ambedkar",
+    "events": [
+      {
+        "name": "Architect and Drafted the Indian Constitution",
+        "image": "ambedkar_constitution.jpeg",
+        "link": "https://en.wikipedia.org/wiki/Constitution_of_India"
+      },
+      {
+        "name": "Fought for equality and rights for marginalized groups",
+        "image": "ambedkar_movement.jpeg",
+        "link": "https://en.wikipedia.org/wiki/Dalit_Buddhist_movement"
+      }
+    ],
+    "development": [
+      "Social justice reforms",
+      "Upliftment of marginalized groups",
+      "Advocated for women's rights"
+    ]
+  },
+  {
+    "id": "bose",
+    "name": "Subhas Chandra Bose",
+    "image": "bose.jpg",
+    "category": "Freedom Fighter",
+    "period": "1897 - 1945",
+    "bio": "An Indian nationalist whose defiant patriotism made him a hero in India, but whose attempts during World War II to rid India of British rule with the help of Nazi Germany and Imperial Japan left a troubled legacy.",
+    "quote": "Give me blood, and I shall give you freedom!",
+    "wikiLink": "https://en.wikipedia.org/wiki/Subhas_Chandra_Bose",
+    "events": [
+      {
+        "name": "Formed Azad Hind Fauj (Indian National Army)",
+        "image": "bose_ina.jpeg",
+        "link": "https://en.wikipedia.org/wiki/Indian_National_Army"
+      },
+      {
+        "name": "Promoted nationalism abroad to gain support",
+        "image": "bose_germany.jpeg",
+        "link": "https://en.wikipedia.org/wiki/Subhas_Chandra_Bose_in_Nazi_Germany"
+      }
+    ],
+    "development": [
+      "Military and political leadership for independence",
+      "Established the Free India Center in Berlin"
+    ]
+  },
+  {
+    "id": "shastri",
+    "name": "Lal Bahadur Shastri",
+    "image": "shastri.jpg",
+    "category": "Prime Minister",
+    "period": "1904 - 1966",
+    "bio": "The second Prime Minister of India, he led the country during the Indo-Pakistani War of 1965. His slogan 'Jai Jawan Jai Kisan' became a symbol of national resilience.",
+    "quote": "Jai Jawan Jai Kisan (Hail the soldier, Hail the farmer).",
+    "wikiLink": "https://en.wikipedia.org/wiki/Lal_Bahadur_Shastri",
+    "events": [
+      {
+        "name": "Prime Minister (1964–1966)",
+        "image": "shastri.jpg",
+        "link": "https://en.wikipedia.org/wiki/Lal_Bahadur_Shastri"
+      },
+      {
+        "name": "Promoted 'Jai Jawan Jai Kisan' during 1965 war",
+        "image": "shastri_kisan.jpeg",
+        "link": "https://en.wikipedia.org/wiki/Jai_Jawan_Jai_Kisan"
+      }
+    ],
+    "development": [
+      "Promoted the Green Revolution and White Revolution",
+      "Agriculture and food self-sufficiency"
+    ]
+  },
+  {
+    "id": "indira",
+    "name": "Indira Gandhi",
+    "image": "indira.jpg",
+    "category": "Prime Minister",
+    "period": "1917 - 1984",
+    "bio": "India's first and, to date, only female Prime Minister. She was a central figure in the Indian National Congress party and was known for her political ruthlessness and controversial policies.",
+    "quote": "You must learn to be still in the midst of activity and to be vibrantly alive in repose.",
+    "wikiLink": "https://en.wikipedia.org/wiki/Indira_Gandhi",
+    "events": [
+      {
+        "name": "First and only woman Prime Minister of India",
+        "image": "indira.jpg",
+        "link": "https://en.wikipedia.org/wiki/Indira_Gandhi"
+      },
+      {
+        "name": "Led India to victory in 1971 war, liberating Bangladesh",
+        "image": "indira_war.jpeg",
+        "link": "https."
+      }
+    ],
+    "development": [
+      "Green Revolution's major push",
+      "Nationalization of banks"
+    ]
+  },
+  {
+    "id": "atal",
+    "name": "Atal Bihari Vajpayee",
+    "image": "atal.jpg",
+    "category": "Prime Minister",
+    "period": "1924 - 2018",
+    "bio": "An Indian politician who served three terms as Prime Minister. He was a co-founder of the Bharatiya Janata Party (BJP) and was known for his oratory skills and moderate policies.",
+    "quote": "You can change friends but not neighbours.",
+    "wikiLink": "https.wikipedia.org/wiki/Atal_Bihari_Vajpayee",
+    "events": [
+      {
+        "name": "PM (1998–2004) and Kargil Victory (1999)",
+        "image": "atal_kargil.jpeg",
+        "link": "https://en.wikipedia.org/wiki/Kargil_War"
+      },
+      {
+        "name": "Conducted Pokhran-II nuclear tests in 1998",
+        "image": "atal_pokhran.jpeg",
+        "link": "https.wikipedia.org/wiki/Pokhran-II"
+      }
+    ],
+    "development": [
+      "Golden Quadrilateral highway project",
+      "Sarva Shiksha Abhiyan (Education for All)"
+    ]
+  },
+  {
+    "id": "modi",
+    "name": "Narendra Modi",
+    "image": "modi.jpg",
+    "category": "Prime Minister",
+    "period": "1950 - Present",
+    "bio": "The 14th and current Prime Minister of India since 2014. He was the Chief Minister of Gujarat from 2001 to 2014 and is a member of the Bharatiya Janata Party (BJP).",
+    "quote": "India's strength lies in its diversity. The brotherhood and unity among various communities is our greatest strength.",
+    "wikiLink": "https://en.wikipedia.org/wiki/Narendra_Modi",
+    "events": [
+      {
+        "name": "Prime Minister since 2014",
+        "image": "modi_oath.jpeg",
+        "link": "https.wikipedia.org/wiki/Narendra_Modi"
+      },
+      {
+        "name": "Launched 'Digital India' & 'Swachh Bharat' missions",
+        "image": "modi_digital.jpeg",
+        "link": "https://en.wikipedia.org/wiki/Digital_India"
+      }
+    ],
+    "development": [
+      "Economic reforms (GST implementation)",
+      "Infrastructure & digital growth",
+      "Make in India initiative"
+    ]
+  },
+  {
+    "id": "rajendra",
+    "name": "Dr. Rajendra Prasad",
+    "image": "rajendra.jpg",
+    "category": "Freedom Fighter",
+    "period": "1884 - 1963",
+    "bio": "An Indian independence activist, lawyer, scholar and statesman who served as the first President of India, in office from 1950 to 1962.",
+    "quote": "In attaining our ideals, our means should be as pure as the ideals themselves.",
+    "wikiLink": "https://en.wikipedia.org/wiki/Rajendra_Prasad",
+    "events": [
+      {
+        "name": "First President of India",
+        "image": "rajendra_oath.jpeg",
+        "link": "https.wikipedia.org/wiki/Rajendra_Prasad"
+      },
+      {
+        "name": "President of the Constituent Assembly",
+        "image": "ambedkar_constitution1.jpeg",
+        "link": "https://en.wikipedia.org/wiki/Constituent_Assembly_of_India"
+      }
+    ],
+    "development": [
+      "Nation-building post-independence",
+      "Guided the new republic in its formative years"
+    ]
+  }
+]

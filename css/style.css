@@ -1,0 +1,347 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+body {
+  font-family: 'Poppins', Arial, sans-serif;
+  margin: 0;
+  background: #f5f5f5;
+  color: #333;
+}
+
+header {
+  background: #ff9933;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: opacity 0.3s ease;
+}
+
+nav a:hover {
+  opacity: 0.8;
+}
+
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background: #138808;
+  color: white;
+}
+
+.btn {
+  display: inline-block;
+  background: #fff;
+  color: #138808;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 8px;
+  margin-top: 10px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* --- New Filter/Search Bar Styles --- */
+.controls-container {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: #eee;
+}
+
+#searchBar {
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  width: 300px;
+  max-width: 100%;
+}
+
+.filter-nav {
+  display: flex;
+  gap: 10px;
+}
+
+.filter-btn {
+  padding: 10px 15px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  background: #fff;
+  color: #555;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.filter-btn:hover {
+  background: #f0f0f0;
+}
+
+.filter-btn.active {
+  background: #138808;
+  color: white;
+  border-color: #138808;
+}
+
+/* --- Grid & Card Styles --- */
+.leaders-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.leader-card {
+  background: white;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.leader-card:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+}
+
+.leader-card img {
+  width: 100%;
+  height: 200px;
+  border-radius: 10px;
+  object-fit: contain; /* This is the fix for the image display */
+  background-color: #f9f9f9; /* Optional: Adds a light background */
+}
+
+.leader-card h3 {
+  color: #333;
+}
+
+.leader-card p {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+/* --- New Modal Styles --- */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  display: none; /* Hidden by default */
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.modal-overlay.active {
+  display: flex; /* Shown when active */
+}
+
+.modal-content {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 600px;
+  max-height: 90vh;
+  overflow-y: auto;
+  position: relative;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.modal-close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 2rem;
+  color: #aaa;
+  background: none;
+  border: none;
+  cursor: pointer;
+  line-height: 1;
+}
+
+#modalBody img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  object-fit: cover; 
+  float: right;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+#modalBody h2 {
+  margin-top: 0;
+  color: #138808;
+}
+
+#modalBody h3 {
+  margin-top: 20px;
+  border-bottom: 2px solid #f0f0f0;
+  padding-bottom: 5px;
+}
+
+#modalBody ul {
+  padding-left: 20px;
+  line-height: 1.6;
+}
+
+/* --- Other Pages --- */
+.about, .contact {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Contact Form */
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.contact label {
+  font-weight: 600;
+}
+.contact input, .contact textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+}
+.contact button {
+  padding: 12px;
+  font-size: 1.1rem;
+  background: #138808;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.contact button:hover {
+  background: #106c07;
+}
+
+
+/* Footer */
+footer {
+  background: #000080;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+/* --- New Modal Detail Styles --- */
+
+/* Rename old modal image class to be specific */
+#modalBody .modal-portrait {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  object-fit: cover;
+  float: right;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+/* Style for the new bio */
+.bio {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin: 15px 0;
+  font-style: italic;
+  color: #555;
+}
+
+/* Style for the new quote */
+.quote {
+  font-size: 1.1rem;
+  font-weight: 600;
+  font-style: italic;
+  color: #138808; /* Use theme color */
+  border-left: 4px solid #ff9933; /* Use theme color */
+  padding-left: 15px;
+  margin: 20px 0;
+}
+
+/* Style for the new "Read More" button */
+.wiki-btn {
+  background-color: #555;
+  color: white;
+  margin-top: 20px;
+}
+.wiki-btn:hover {
+  background-color: #333;
+}
+
+/* Styles for the new Event List */
+.event-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.event-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 15px;
+  background: #f9f9f9;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.event-item .event-image {
+  width: 100px;
+  height: 75px;
+  object-fit: cover;
+  border-radius: 5px;
+  flex-shrink: 0; /* Prevents image from shrinking */
+}
+
+.event-item p {
+  margin: 0;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+/* --- New Event Link Styles --- */
+
+.event-link {
+  text-decoration: none; /* Removes the underline */
+  color: inherit; /* Makes the text use the default color */
+  display: block; /* Makes the link take up the full width */
+  border-radius: 8px; /* Matches the event-item radius */
+  transition: background-color 0.3s ease;
+}
+
+.event-link:hover .event-item {
+  background-color: #e9e9e9; /* Adds a hover effect */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}

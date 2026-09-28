@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>All Leaders - Top 10 Political Leaders of India</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Top 10 Political Leaders</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="leaders.html">Leaders</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="controls-container">
+    <input type="text" id="searchBar" placeholder="Search by name...">
+    <nav class="filter-nav" id="filterNav">
+      <button class="filter-btn active" data-category="all">All</button>
+      <button class="filter-btn" data-category="Freedom Fighter">Freedom Fighters</button>
+      <button class="filter-btn" data-category="Prime Minister">Prime Ministers</button>
+      <button class="filter-btn" data-category="Social Reformer">Social Reformers</button>
+    </nav>
+  </section>
+
+  <section class="leaders-grid" id="leadersGrid">
+    </section>
+
+  <div class="modal-overlay" id="modalOverlay">
+    <div class="modal-content">
+      <button class="modal-close" id="modalClose">&times;</button>
+      <div id="modalBody">
+        </div>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
