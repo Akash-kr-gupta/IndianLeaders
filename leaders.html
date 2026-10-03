@@ -9,27 +9,49 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
-<body>
-  <header>
+<body class="leaders-page">
+  <header class="site-header">
+    <div class="brand-mark"><span>भारत</span><small>LEADERS</small></div>
     <h1>Top 10 Political Leaders</h1>
     <nav>
       <a href="index.html">Home</a>
-      <a href="leaders.html">Leaders</a>
+      <a href="leaders.html" class="active">Leaders</a>
       <a href="about.html">About</a>
       <a href="contact.html">Contact</a>
     </nav>
   </header>
 
+  <section class="page-heading">
+    <p class="eyebrow">The people behind the progress</p>
+    <h2>Discover the leaders</h2>
+    <p>Explore their lives, landmark moments, and lasting contributions.</p>
+  </section>
+
   <section class="controls-container">
-    <input type="text" id="searchBar" placeholder="Search by name...">
+    <div class="search-wrap">
+      <span aria-hidden="true">⌕</span>
+      <input type="search" id="searchBar" placeholder="Search names, stories, categories..." aria-label="Search leaders">
+      <button id="clearSearch" class="clear-search" type="button" aria-label="Clear search">&times;</button>
+    </div>
     <nav class="filter-nav" id="filterNav">
       <button class="filter-btn active" data-category="all">All</button>
       <button class="filter-btn" data-category="Freedom Fighter">Freedom Fighters</button>
       <button class="filter-btn" data-category="Prime Minister">Prime Ministers</button>
       <button class="filter-btn" data-category="Social Reformer">Social Reformers</button>
     </nav>
+    <div class="list-options">
+      <label for="sortSelect">Sort by</label>
+      <select id="sortSelect">
+        <option value="default">Featured</option>
+        <option value="name">Name A-Z</option>
+        <option value="oldest">Oldest first</option>
+        <option value="favorites">Favorites</option>
+      </select>
+      <button id="favoritesToggle" class="favorites-toggle" type="button">♡ Favorites only</button>
+    </div>
   </section>
 
+  <div class="results-bar"><span id="resultCount">Loading leaders...</span><button id="resetFilters" type="button">Reset filters</button></div>
   <section class="leaders-grid" id="leadersGrid">
     </section>
 

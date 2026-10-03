@@ -9,11 +9,12 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
-<body>
-  <header>
+<body class="home-page">
+  <header class="site-header">
+    <div class="brand-mark"><span>भारत</span><small>LEADERS</small></div>
     <h1>Top 10 Political Leaders of India</h1>
     <nav>
-      <a href="index.html">Home</a>
+      <a href="index.html" class="active">Home</a>
       <a href="leaders.html">Leaders</a>
       <a href="about.html">About</a>
       <a href="contact.html">Contact</a>
@@ -21,13 +22,35 @@
   </header>
 
   <section class="hero">
+    <div class="hero-orb hero-orb-one"></div>
+    <div class="hero-orb hero-orb-two"></div>
+    <div class="hero-content">
+      <p class="eyebrow">A living story of leadership</p>
     <h2>Great Leaders Who Shaped India’s Destiny</h2>
     <p>Discover the vision, events, and development journeys of India’s most respected political leaders.</p>
-    <a href="leaders.html" class="btn">Explore Leaders</a>
+      <div class="hero-actions">
+        <a href="leaders.html" class="btn btn-primary">Explore Leaders <span>→</span></a>
+        <a href="about.html" class="text-link">Why this collection?</a>
+      </div>
+    </div>
+    <div class="scroll-indicator" aria-hidden="true"><span></span>Scroll to explore</div>
+  </section>
+
+  <section class="home-highlights">
+    <div class="stat-card"><strong>10</strong><span>Influential leaders</span></div>
+    <div class="stat-card"><strong>3</strong><span>Leadership categories</span></div>
+    <div class="stat-card"><strong>∞</strong><span>Stories to discover</span></div>
+  </section>
+
+  <section class="home-intro">
+    <p class="eyebrow">Explore the collection</p>
+    <h2>Ideas that continue to move a nation forward.</h2>
+    <p>Search by name, filter by contribution, and open each profile to explore the moments and ideas that shaped modern India.</p>
+    <a href="leaders.html" class="btn btn-dark">Browse all profiles <span>↗</span></a>
   </section>
 
   <footer>
-    <p>© 2025 Top Political Leaders of India | Designed by Aditi Kumari</p>
+    <p>© 2025 Top Political Leaders of India | Designed by Akash Kumar Gupta</p>
   </footer>
 </body>
 </html>
